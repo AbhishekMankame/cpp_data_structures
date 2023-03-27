@@ -27,6 +27,15 @@ string addNumbers(string n1, string n2){
 
     //Result
     string result="";
+    // Reverse
+    reverse(n1.begin(),n1.end());
+    reverse(n2.begin(),n2.end()); 
+    
+    // Add digits upto n1.length()
+    for(int i=0;i<n1.length();i++){
+        int d1 = charToDigit(n1[i]);
+        int d2 = charToDigit(n2[i]);
+    }
 
 }
 
