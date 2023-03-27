@@ -40,9 +40,11 @@ string addNumbers(string n1, string n2){
     reverse(n2.begin(),n2.end()); 
     
     // Add digits upto n1.length()
+    int carry=0;
     for(int i=0;i<n1.length();i++){
         int d1 = charToDigit(n1[i]);
         int d2 = charToDigit(n2[i]);
+        int sum = d1+d2+carry;
     }
 
 }
