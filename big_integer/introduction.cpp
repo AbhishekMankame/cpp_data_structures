@@ -19,8 +19,12 @@ void fast(){
     cout.tie(0);
 }
 
-string addNumbers(string s1, string s2){
-    
+string addNumbers(string n1, string n2){
+    // Make sure N2 is larger
+    if(n1.length()>n2.length()){
+        swap(n1,n2);
+    }
+
 }
 
 int main(){
