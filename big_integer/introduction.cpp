@@ -47,6 +47,8 @@ string addNumbers(string n1, string n2){
         int sum = d1+d2+carry;
         int output_digit = sum%10;
         carry = sum/10;
+
+        result.push_back(digitToChar(output_digit));
     }
 
 }
