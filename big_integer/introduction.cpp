@@ -19,6 +19,10 @@ void fast(){
     cout.tie(0);
 }
 
+int charToDigit(char ch){
+    return ch-'0';
+}
+
 string addNumbers(string n1, string n2){
     // Make sure N2 is larger
     if(n1.length()>n2.length()){
