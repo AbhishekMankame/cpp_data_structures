@@ -25,6 +25,9 @@ string addNumbers(string n1, string n2){
         swap(n1,n2);
     }
 
+    //Result
+    string result="";
+
 }
 
 int main(){
