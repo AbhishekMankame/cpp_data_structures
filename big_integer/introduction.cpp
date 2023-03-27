@@ -1,3 +1,15 @@
+/*
+Large Addition:
+Given two large numbers. The numbers may not fit into long long int, the task is to add these two numbers.
+
+Input:
+str1 = "3333311111111111"
+str2 = "44422222221111"
+
+Output:
+3377733333332222
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
