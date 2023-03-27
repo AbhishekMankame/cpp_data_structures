@@ -31,11 +31,16 @@ int main(){
 #endif
 
     fast();
-    int t=1;
-    cin>>t;
+    // int t=1;
+    // cin>>t;
     // while(t--){
     //     solve();
     // }
+
+    string s1,s2;
+    cin>>s1>>s2;
+
+    
 
     return 0;
 }
