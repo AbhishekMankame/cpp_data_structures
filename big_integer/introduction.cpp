@@ -19,9 +19,9 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
+// void solve(){
     
-}
+// }
 
 int main(){
 #ifndef ONLINE_JUDGE
@@ -33,9 +33,9 @@ int main(){
     fast();
     int t=1;
     cin>>t;
-    while(t--){
-        solve();
-    }
+    // while(t--){
+    //     solve();
+    // }
 
     return 0;
 }
