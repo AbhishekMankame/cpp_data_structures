@@ -19,6 +19,10 @@ void fast(){
     cout.tie(0);
 }
 
+char digitToChar(int digit){
+    return digit +'0';
+}
+
 int charToDigit(char ch){
     return ch-'0';
 }
