@@ -19,9 +19,9 @@ void fast(){
     cout.tie(0);
 }
 
-// void solve(){
+string addNumbers(string s1, string s2){
     
-// }
+}
 
 int main(){
 #ifndef ONLINE_JUDGE
@@ -40,7 +40,7 @@ int main(){
     string s1,s2;
     cin>>s1>>s2;
 
-    
+    string result = addNumbers(s1,s2);
 
     return 0;
 }
