@@ -45,6 +45,8 @@ string addNumbers(string n1, string n2){
         int d1 = charToDigit(n1[i]);
         int d2 = charToDigit(n2[i]);
         int sum = d1+d2+carry;
+        int output_digit = sum%10;
+        carry = sum/10;
     }
 
 }
