@@ -1,1 +1,2 @@
-815
+Bubble Sort: 1201
+O(NlogN) Sort: 1
