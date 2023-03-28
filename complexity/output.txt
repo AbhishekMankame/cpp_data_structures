@@ -1,0 +1,2 @@
+Bubble Sort: 92858
+O(NlogN) Sort: 20
