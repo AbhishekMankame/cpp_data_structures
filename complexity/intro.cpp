@@ -10,4 +10,8 @@ int main(){
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
 #endif
+
+    int n;
+    cin>>n;
+    vector<int> arr(n,0);
 }
