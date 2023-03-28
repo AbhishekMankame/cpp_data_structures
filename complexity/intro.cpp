@@ -2,6 +2,7 @@
 #include<vector>
 #include<ctime>
 #include<algorithm>
+using namespace std;
 
 int main(){
 #ifndef ONLINE_JUDGE
