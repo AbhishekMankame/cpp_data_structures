@@ -8,6 +8,16 @@ bool compare(int a, int b){
     return a>b;
 }
 
+void hubble_sort(int a[], int n){
+    for(int times=1;times<=n-1;times++){
+        for(int j=0;j<=n-times-1;j++){
+            if(compare(a[j],a[j+1])){
+                swap(a[j],a[j+1]);
+            }
+        }
+    }
+}
+
 int main(){ 
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
