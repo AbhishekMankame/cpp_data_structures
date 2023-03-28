@@ -36,6 +36,6 @@ int main(){
     bubble_sort(arr,n);
     auto end_time = clock();
 
-    cout<<end_time - start_time<<endl;
+    cout<<"Bubble Sort: "<<end_time - start_time<<endl;
     return 0;
 }
