@@ -7,9 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-    
-}
+
 
 int main(){
 #ifndef ONLINE_JUDGE
@@ -20,9 +18,8 @@ int main(){
 
     fast();
     int t=1;
-    cin>>t;
+    //cin>>t;
     while(t--){
-        solve();
     }
 
     return 0;
