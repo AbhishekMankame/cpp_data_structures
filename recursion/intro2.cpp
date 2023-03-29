@@ -14,13 +14,11 @@ void func(int n){
     if(n==0) return;
     cout<<n<<endl; //Here func(5) is called at first
     func(n-1);
-    cout<<n<<endl; //Here func(1) will be considered first 
 
 }
 
 void func1(int n){
     if(n==0) return;
-    cout<<n<<endl; //Here func(5) is called at first
     func(n-1);
     cout<<n<<endl; //Here func(1) will be considered first 
 
