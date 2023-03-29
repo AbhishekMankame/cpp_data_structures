@@ -27,6 +27,9 @@ int main(){
     int t=1;
     //cin>>t;
     while(t--){
+        int n;
+        cin>>n;
+        cout<<digit_sum(n)<<endl;
     }
 
     return 0;
