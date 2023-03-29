@@ -35,7 +35,7 @@ int main(){
         for(int i=0;i<n;i++){
             cin>>a[i];
         }
-        
+        cout<<sum(n-1,a)<<endl;
     }
 
     return 0;
