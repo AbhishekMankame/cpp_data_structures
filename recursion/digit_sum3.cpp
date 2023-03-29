@@ -2,6 +2,8 @@
 using namespace std;
 
 // digit sum --> sum of digits present in a number
+// digit_sum(N) ->
+// 1234 -> 4 + digitsum(123)
 
 void fast(){
     ios_base::sync_with_stdio(0); 
