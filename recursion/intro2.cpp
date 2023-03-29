@@ -33,6 +33,8 @@ int main(){
 
     fast();
     func(5);
+    cout<<endl;
+    func1(5);
 
     
     return 0;
