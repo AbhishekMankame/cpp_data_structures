@@ -18,9 +18,10 @@ void func(int n){
 }
 
 void func1(int n){
+    cout<<n<<endl; //Here func(1) will be considered first
     if(n==0) return;
     func(n-1);
-    cout<<n<<endl; //Here func(1) will be considered first 
+     
 
 }
 
