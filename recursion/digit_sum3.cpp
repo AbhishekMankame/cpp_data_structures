@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// digit sum --> sum of digits present in a number
+
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
