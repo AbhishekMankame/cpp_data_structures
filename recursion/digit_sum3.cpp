@@ -2,13 +2,18 @@
 using namespace std;
 
 // digit sum --> sum of digits present in a number
-// digit_sum(N) ->
+// digit_sum(N) -> digitdum(n/10) + last_digit
 // 1234 -> 4 + digitsum(123)
 
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
     cout.tie(0);
+}
+
+int digit_sum(int n){
+    if(n==0) return 0;
+    return digit_sum(n/10) + n%10;
 }
 
 int main(){
