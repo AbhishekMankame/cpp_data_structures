@@ -12,15 +12,15 @@ void fast(){
 
 void func(int n){
     if(n==0) return;
-    cout<<n<<endl; //Here func(5) is called at first
+      cout<<n<<endl;//Here func(5) is called at first
     func(n-1);
 
 }
 
-void func1(int n){
-    if(n==0) return;
-    func(n-1);
-    cout<<n<<endl; //Here func(1) will be considered first
+void func1(int m){
+    if(m==0) return;
+    func1(m-1);
+    cout<<m<<endl; //Here func(1) will be considered first
      
 
 }
