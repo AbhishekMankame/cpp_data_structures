@@ -4,6 +4,7 @@ using namespace std;
 
 // sum of array
 // sum(n,a) -> sum of elements in a uptill n index
+// sum(n,a) = a[n] + sum(n-1,a)
 
 void fast(){
     ios_base::sync_with_stdio(0); 
@@ -11,7 +12,9 @@ void fast(){
     cout.tie(0);
 }
 
-int sum(int n){}
+int sum(int n){
+    if(n==0) return 1;
+}
 
 
 int main(){
