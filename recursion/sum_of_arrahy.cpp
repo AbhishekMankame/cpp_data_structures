@@ -12,7 +12,7 @@ void fast(){
     cout.tie(0);
 }
 
-int sum(int n){
+int sum(int n, int a[] ){
     if(n==0) return 1;
 }
 
@@ -26,8 +26,14 @@ int main(){
 
     fast();
     int t=1;
-    cin>>t;
+    //cin>>t;
     while(t--){
+        int n;
+        cin>>n;
+        int a[n];
+        for(int i=0;i<n;i++){
+            cin>>a[i];
+        }
         
     }
 
