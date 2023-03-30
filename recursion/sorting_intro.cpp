@@ -14,6 +14,7 @@ void solve(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
+    auto start_time = clock();
     for(int i=0;i<n;i++){
         int minIndex = i;
         for (int j = i+1;j<n;j++)
@@ -24,9 +25,11 @@ void solve(){
         }
         swap(a[i],a[minIndex]);
     }
+    auto end_time = clock();
     for(int i=0;i<n;i++){
         cout<<a[i]<<" ";
     }
+    cerr<<end_time-start_time<<endl;
 }
 
 int main(){
