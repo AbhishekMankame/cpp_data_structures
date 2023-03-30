@@ -8,9 +8,9 @@ void fast(){
 }
 
 void solve(){
-    vector<int> arr(1000);
-    for(auto i:arr){
-        cin>>i;
+    vector<int> arr(100);
+    for(int i=0;i<100;i++){
+        cin>>arr[i];
     }
     for(auto i:arr){
         cout<<i<<" ";
