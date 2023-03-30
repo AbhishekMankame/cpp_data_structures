@@ -8,6 +8,13 @@ void fast(){
 }
 
 void solve(){
+    vector<int> arr(1000);
+    for(auto i:arr){
+        cin>>i;
+    }
+    for(auto i:arr){
+        cout<<i<<" ";
+    }
     
 }
 
