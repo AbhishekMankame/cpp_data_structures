@@ -8,6 +8,22 @@ void fast(){
 }
 
 void solve(){
+    int n;
+    cin>>n;
+    vector<int> a(n);
+    bool f=0;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        if(i+1>=a[i]){
+            f=1;
+        }
+    }
+    if(f==1){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
     
 }
 
