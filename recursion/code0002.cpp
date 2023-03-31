@@ -14,6 +14,8 @@ void solve(){
     bool f=0;
     for(int i=0;i<n;i++){
         cin>>a[i];
+    }
+    for(int i=0;i<n;i++){
         if(i+1>=a[i]){
             f=1;
         }
