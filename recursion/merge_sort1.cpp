@@ -36,8 +36,8 @@ void merge(int l, int r, int mid){
 
 }
 
-void mergeSort(){
-    
+void mergeSort(int l, int r){
+    int mid = (l+r)/2;
 }
 
 int main(){
