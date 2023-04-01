@@ -25,7 +25,7 @@ void merge(int l, int r, int mid){
     int r_i=0;
     for(int i=l;i<r;i++){
         if(L[l_i]<= R[r_i]){
-            a[l]=L[l_i];
+            a[i]=L[l_i];
             l_i++;
         }
     }
