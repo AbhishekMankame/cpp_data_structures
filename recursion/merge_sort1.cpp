@@ -7,8 +7,8 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-    
+void merge(int l, int r, int mid){
+
 }
 
 int main(){
@@ -22,7 +22,7 @@ int main(){
     int t=1;
     cin>>t;
     while(t--){
-        solve();
+        
     }
 
     return 0;
