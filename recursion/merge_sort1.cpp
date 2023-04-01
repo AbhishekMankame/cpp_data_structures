@@ -36,6 +36,10 @@ void merge(int l, int r, int mid){
 
 }
 
+void mergeSort(){
+    
+}
+
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
