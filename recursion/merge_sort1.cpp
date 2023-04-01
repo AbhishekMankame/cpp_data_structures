@@ -21,6 +21,14 @@ void merge(int l, int r, int mid){
         R[i]=a[i+mid+1];
     }
     L[l_sz] = R[r_sz] = INT_MAX;
+    int l_i=0;
+    int r_i=0;
+    for(int i=l;i<r;i++){
+        if(L[l_i]<= R[r_i]){
+            a[l]=L[l_i];
+            l_i++;
+        }
+    }
 
 }
 
