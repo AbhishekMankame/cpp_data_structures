@@ -28,6 +28,10 @@ void merge(int l, int r, int mid){
             a[i]=L[l_i];
             l_i++;
         }
+        else{
+            a[i]=R[r_i];
+            r_i++;
+        }
     }
 
 }
