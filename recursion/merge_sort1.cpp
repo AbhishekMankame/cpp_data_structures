@@ -10,7 +10,9 @@ void fast(){
 }
 
 void merge(int l, int r, int mid){
-
+    int l_sz = mid-l+1;
+    int L[l_sz+1];
+    int r_sz = r - mid; // r_sz = r - (mid + 1) + 1
 }
 
 int main(){
