@@ -38,6 +38,8 @@ void merge(int l, int r, int mid){
 
 void mergeSort(int l, int r){
     int mid = (l+r)/2;
+    mergeSort(l,mid);
+    mergeSort(mid+1,r);
 }
 
 int main(){
