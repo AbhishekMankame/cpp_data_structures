@@ -1,5 +1,8 @@
 /*
 Was it rated?
+Input
+The only line of the input contains a single integer n
+ (1≤n≤25).
 */
 
 #include<bits/stdc++.h>
