@@ -15,7 +15,14 @@ void fast(){
 }
 
 void solve(){
-    
+    int n;
+    cin>>n;
+    if(n==15 || n==20 || n==21){
+        cout<<"NO"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
 }
 
 int main(){
