@@ -3,6 +3,13 @@
      उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||
 */
 
+/*
+Given T testcases and in each test case a number N. Print its factorial for each test case %M.
+Constraints
+1 <= T <= 10^5
+1 <= N <= 10^5 
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
