@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long int
+const int M = 1e9+7;
+const int N = 1e5+10;
+ll fact[N];
 
 void fast(){
     ios_base::sync_with_stdio(0); 
