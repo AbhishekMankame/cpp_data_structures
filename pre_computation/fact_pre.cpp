@@ -16,7 +16,13 @@ void solve(){
     for(int i=2;i<N;i++){
         fact[i]=fact[i-1]*i;
     }
-    
+    int t=1;
+    cin>>t;
+    while(t--){
+    ll n;
+    cin>>n;
+    cout<<(fact[n])%M<<endl;
+}
 }
 
 int main(){
@@ -27,11 +33,7 @@ int main(){
 #endif
 
     fast();
-    int t=1;
-    cin>>t;
-    while(t--){
-        solve();
-    }
+    solve();
 
     return 0;
 }
