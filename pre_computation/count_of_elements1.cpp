@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+const int N = 1e7+10;
+int hsh[N];
 
 int main(){
 #ifndef ONLINE_JUDGE
