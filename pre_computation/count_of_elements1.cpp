@@ -15,6 +15,7 @@ int main(){
     int a[n];
     for(int i=0;i<n;i++){
         cin>>a[i];
+        hsh[a[i]]++;
     }
     int q;
     cin>>q;
