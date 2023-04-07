@@ -36,6 +36,7 @@ int main(){
     clock_t e=clock();
 
     cerr<<"Run time: "<<e-b<<endl;
+    cerr<<endl<<"Time Complexity is: O(T*N)=> O(N^2)"<<endl;
     
     return 0;
 }
