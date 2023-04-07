@@ -25,3 +25,5 @@ int main(){
         cout<<hsh[x]<<endl;
     }
 }
+
+// Time Complexity => O(N) + O(Q)
