@@ -88,9 +88,10 @@ int32_t main()
 
     clock_t z = clock();
 
-    int t = 1;
+    //int t = 1;
     // cin >> t;
-    while (t--) solve();
+    //while (t--)
+     solve();
 
     cerr << "Run Time : " << ((double)(clock() - z) / CLOCKS_PER_SEC);
 
