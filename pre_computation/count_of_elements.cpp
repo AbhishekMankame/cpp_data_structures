@@ -38,4 +38,4 @@ int main(){
     }
 }
 
-// Time Complexity -> O(N) + O(Q*N)
+// Time Complexity -> O(N) + O(Q*N) = O(N^2)
