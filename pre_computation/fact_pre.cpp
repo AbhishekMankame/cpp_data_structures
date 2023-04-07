@@ -33,8 +33,10 @@ int main(){
 #endif
 
     fast();
+    clock_t b = clock();
     solve();
-
+    clock_t e = clock();
+    cerr<<"Run time: "<<e-b<<endl;
     return 0;
 }
 
