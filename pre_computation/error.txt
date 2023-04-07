@@ -1,3 +1,1 @@
-Run time: 0
-
-Time Complexity is: O(T*N)=> O(N^2)
+Run time: 1
