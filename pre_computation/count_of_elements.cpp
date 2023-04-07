@@ -34,5 +34,6 @@ int main(){
                 ct++;
             }
         }
+        cout<<ct<<endl;
     }
 }
