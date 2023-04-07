@@ -37,3 +37,5 @@ int main(){
         cout<<ct<<endl;
     }
 }
+
+// Time Complexity -> O(N) + O(Q*N)
