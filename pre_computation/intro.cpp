@@ -37,6 +37,7 @@ using namespace std;
 #define print(a)       for(auto x : a) cout << x << " "; cout << endl
 #define print1(a)      for(auto x : a) cout << x.F << " " << x.S << endl
 #define print2(a,x,y)  for(int i = x; i < y; i++) cout<< a[i]<< " "; cout << endl
+const int M = 1e9+7;
 
 inline int power(int a, int b)
 {
@@ -62,9 +63,17 @@ void __f (const char* names, Arg1&& arg1, Args&&... args)
 const int N = 200005;
 
 void solve() {
-    int n, m;
-    cin >> n >> m;
-    bug(n, m);
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        long long fact = 1;
+        for(int i=2;i<=n;i++){
+            fact = (fact*i)%M;
+        }
+        cout<<fact<<endl;
+    }
 }
 
 int32_t main()
