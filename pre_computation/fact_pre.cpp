@@ -38,4 +38,4 @@ int main(){
     return 0;
 }
 
-// Time Complexity --> O(N) + O(T)
+// Time Complexity --> O(N) + O(T) = 10^5 + 10^5
