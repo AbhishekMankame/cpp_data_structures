@@ -40,3 +40,5 @@ int main(){
         cout<<sum<<endl;
     }
 }
+
+// Time Complexity --> O(N) + O(N^2) --> O(N^2) = 10^10 iterations
