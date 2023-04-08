@@ -23,6 +23,7 @@ int main(){
     while(q--){
         int l,r;
         cin>>l>>r;
+        cout<<pf[r]-pf[l-1]<<endl;
     }
 
 }
