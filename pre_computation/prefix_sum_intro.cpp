@@ -12,6 +12,7 @@ Constraints
 /*Prefix sum*/
 #include<bits/stdc++.h>
 using namespace std; 
+#define ll long long int
 const int N=1e5+10; 
 int a[N];
 
@@ -32,5 +33,6 @@ int main(){
     while(q--){
         int l,r;
         cin>>l>>r;
+        ll sum=0;
     }
 }
