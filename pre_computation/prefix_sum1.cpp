@@ -12,4 +12,11 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cin>>a[i];
+        pf[i]=pf[i-1]+a[i];
+    }
+
 }
