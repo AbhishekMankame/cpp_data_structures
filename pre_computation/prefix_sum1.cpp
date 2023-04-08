@@ -27,3 +27,5 @@ int main(){
     }
 
 }
+
+// Time complexity --> O(N) + O(Q) = 10^5
