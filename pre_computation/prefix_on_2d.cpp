@@ -12,6 +12,8 @@ Constraints
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
+const int N=1e3+10;
+int a[N][N];
 
 int main(){
 
@@ -20,4 +22,12 @@ int main(){
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
 #endif
+
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            cin>>a[i][j];
+        }
+    }
 }
