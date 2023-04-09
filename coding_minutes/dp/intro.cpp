@@ -11,8 +11,13 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-    
+int cnt=0;
+int fib(int n){
+    cnt++;
+    if(n<=2){
+        return 1;
+    }
+    return fib(n-1) + fib(n-2);
 }
 
 int32_t main(){
@@ -23,11 +28,8 @@ int32_t main(){
 #endif
 
     fast();
-    int t=1;
-    cin>>t;
-    while(t--){
-        solve();
-    }
+    cout<<fib(6)<<'\n';
+    cout<<cnt<<'\n';
 
     return 0;
 }
