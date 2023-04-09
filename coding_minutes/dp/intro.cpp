@@ -15,7 +15,7 @@ void solve(){
     
 }
 
-int main(){
+int32_t main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
