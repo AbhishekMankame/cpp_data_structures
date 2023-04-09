@@ -22,6 +22,7 @@ int fib(int n){
 
     // memoisation part
     if(memo[n]!=-1) return memo[n];
+    // recursive relation
     return fib(n-1) + fib(n-2);
 }
 
