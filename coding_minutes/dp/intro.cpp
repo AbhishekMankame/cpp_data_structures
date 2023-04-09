@@ -5,6 +5,8 @@
 #define pb push_back
 using namespace std;
 
+vector<int> memo;
+
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
@@ -28,6 +30,8 @@ int32_t main(){
 #endif
 
     fast();
+    int n=6;
+    memo.resize(n+1,-1);
     cout<<fib(6)<<'\n';
     cout<<cnt<<'\n';
 
