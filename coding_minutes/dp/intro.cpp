@@ -19,6 +19,9 @@ int fib(int n){
     if(n<=2){
         return 1;
     }
+
+    // memoisation part
+    if(memo[n]!=-1) return memo[n];
     return fib(n-1) + fib(n-2);
 }
 
@@ -32,7 +35,7 @@ int32_t main(){
     fast();
     int n=6;
     memo.resize(n+1,-1);
-    cout<<fib(6)<<'\n';
+    cout<<fib(n)<<'\n';
     cout<<cnt<<'\n';
 
     return 0;
