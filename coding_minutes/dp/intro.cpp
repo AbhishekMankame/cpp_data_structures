@@ -1,4 +1,8 @@
 #include<bits/stdc++.h>
+#define int long long int
+#define F first
+#define S second
+#define pb push_back
 using namespace std;
 
 void fast(){
