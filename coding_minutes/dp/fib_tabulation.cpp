@@ -22,9 +22,11 @@ int main(){
     fib[1]=fib[2]=1;
     int cnt=0;
     for(int i=3;i<=n;i++){
+        cnt++;
         fib[i]=fib[i-1] + fib[i-2];
     }
-
+    cout<<fib[n]<<endl;
+    cout<<cnt<<endl;
 
     return 0;
 }
