@@ -20,4 +20,11 @@ int main(){
         cin>>a[i];
     }
 
+    int q;
+    cin>>q;
+    while(q--){
+        int l,r;
+        cin>>l>>r;
+    }
+
 }
