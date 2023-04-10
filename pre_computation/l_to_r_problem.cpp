@@ -26,6 +26,10 @@ int main(){
         int l,r;
         cin>>l>>r;
         long long sum=0;
+        for(int i=l;i<=r;i++){
+            sum+=a[i];
+        }
+        cout<<sum<<endl;
     }
 
 }
