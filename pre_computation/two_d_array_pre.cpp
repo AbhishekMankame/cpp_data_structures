@@ -39,6 +39,7 @@ int main(){
                 sum+=arr[i][j];
             }
         }
+        cout<<sum<<endl;
     }
 
 }
