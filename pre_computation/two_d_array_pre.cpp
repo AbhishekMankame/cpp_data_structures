@@ -12,7 +12,7 @@ Constraints
 using namespace std;
 #define ll long long int
 const int N=1e3+10;
-int a[N][N];
+int arr[N][N];
 
 int main(){
 
@@ -25,10 +25,20 @@ int main(){
     cin>>n;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            cin>>a[i][j];
+            cin>>arr[i][j];
         }
     }
     int q;
     cin>>q;
+    while(q--){
+        int a,b,c,d;
+        cin>>a>>b>>c>>d;
+        ll sum=0;
+        for(int i=a;i<=c;i++){
+            for(int j=b;j<=d;j++){
+
+            }
+        }
+    }
 
 }
