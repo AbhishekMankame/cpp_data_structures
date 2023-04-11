@@ -28,4 +28,4 @@ int main(){
     }
 }
 
-//O(N) + O(Q) --> O(N) --> 10^5
+// Time Complexity O(N) + O(Q) --> O(N) --> 10^5
