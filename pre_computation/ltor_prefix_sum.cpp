@@ -27,3 +27,5 @@ int main(){
         cout<<pf[r] - pf[l-1]<<endl;
     }
 }
+
+//O(N) + O(Q) --> O(N) --> 10^5
