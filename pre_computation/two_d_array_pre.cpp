@@ -38,6 +38,7 @@ int main(){
             for(int j=b;j<=d;j++){
                 sum+=arr[i][j];
             }
+            
         }
         cout<<sum<<endl;
     }
