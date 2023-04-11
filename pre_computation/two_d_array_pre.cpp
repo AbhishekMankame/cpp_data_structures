@@ -10,6 +10,9 @@ Constraints
 
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long int
+const int N=1e3+10;
+int a[N][N];
 
 int main(){
 
