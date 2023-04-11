@@ -36,7 +36,7 @@ int main(){
         ll sum=0;
         for(int i=a;i<=c;i++){
             for(int j=b;j<=d;j++){
-
+                sum+=arr[i][j];
             }
         }
     }
