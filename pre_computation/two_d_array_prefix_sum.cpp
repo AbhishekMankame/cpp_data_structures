@@ -41,4 +41,4 @@ int main(){
 
 }
 
-// Time Complexity - O(N^2) + O(Q*N^2) --> O(N^3) --> 10^5 + 10^6 == 10^11
+// Time Complexity - O(N^2) + O(Q) --> O(N^2) --> 10^5 + 10^6 == 10^6
