@@ -44,3 +44,5 @@ int main(){
     }
 
 }
+
+// Time Complexity - O(N^2) + O(Q*N^2) --> O(N^3) --> 10^15
