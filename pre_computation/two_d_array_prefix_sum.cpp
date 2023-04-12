@@ -40,5 +40,4 @@ int main(){
     }
 
 }
-
 // Time Complexity - O(N^2) + O(Q) --> O(N^2) --> 10^5 + 10^6 == 10^6
