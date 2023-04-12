@@ -22,6 +22,7 @@ int main(){
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
 #endif
+
     int n;
     cin>>n;
     for(int i=1;i<=n;i++){
