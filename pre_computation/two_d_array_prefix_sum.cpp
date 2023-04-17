@@ -29,6 +29,7 @@ int main(){
         for(int j=1;j<=n;j++){
             cin>>arr[i][j];
             pf[i][j] = arr[i][j] + pf[i-1][j] + pf[i][j-1] - pf[i-1][j-1];
+            
         }
     }
     int q;
