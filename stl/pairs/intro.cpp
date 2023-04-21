@@ -19,5 +19,6 @@ int main(){
     pair<int,string> s;
     s={5,"abc"};
     cout<<s.first<<" "<<s.second<<endl;
+    cout<<p.first<<" "<<p.second<<endl;
     return 0;
 }
