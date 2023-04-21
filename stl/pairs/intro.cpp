@@ -23,5 +23,8 @@ int main(){
     cout<<p1.first<<" "<<s.second<<endl;
     cout<<s.first<<" "<<p1.second<<endl;
     cout<<p.first<<" "<<p.second<<endl;
+
+    // Pair of arrays
+    pair<int,int> p_array[3];
     return 0;
 }
