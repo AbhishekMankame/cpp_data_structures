@@ -14,5 +14,9 @@ int main(){
     p = make_pair(2,"abd");
     cout<<p.first<<endl;
     cout<<p.second<<endl;
+
+    // another method
+    pair<int,string> s;
+    s={5,"abc"};
     return 0;
 }
