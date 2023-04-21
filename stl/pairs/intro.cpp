@@ -6,5 +6,6 @@ int main(){
     // Adding elements or values to the pair
     // internal function --> make_pair()
     p = make_pair(2,"abd");
+    cout<<p.first<<endl;
     return 0;
 }
