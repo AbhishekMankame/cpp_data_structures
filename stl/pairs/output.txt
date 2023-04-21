@@ -3,3 +3,6 @@ abd
 7 abc
 5 abd
 7 abd
+1 2
+2 3
+3 4
