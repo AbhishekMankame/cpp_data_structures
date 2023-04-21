@@ -13,5 +13,6 @@ int main(){
     // internal function --> make_pair()
     p = make_pair(2,"abd");
     cout<<p.first<<endl;
+    cout<<p.second<<endl;
     return 0;
 }
