@@ -24,6 +24,13 @@ class Vector{
     int *arr;
     int cs;
     int ms;
+
+public:
+    Vector(){
+        cs=0;
+        ms=1;
+        arr=new int[ms];
+    }
     
 };
 
