@@ -61,6 +61,8 @@ public:
     bool isEmpty(){
         return cs==0;
     }
+
+    // Front, Back, At(i), operator overloading []
     
 };
 
