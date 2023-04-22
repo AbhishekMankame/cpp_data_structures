@@ -26,9 +26,9 @@ class Vector{
     int ms;
 
 public:
-    Vector(){
+    Vector(int max_size=1){
         cs=0;
-        ms=1;
+        ms=max_size;
         arr=new int[ms];
     }
 
