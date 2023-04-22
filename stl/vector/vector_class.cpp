@@ -63,7 +63,7 @@ public:
     }
 
     // Front, Back, At(i), operator overloading []
-    int front(){
+    int front() const{
         return arr[0];
     }
 
@@ -83,7 +83,7 @@ public:
         return ms;
     }
 
-    int operator[](const int i){
+    int operator[](const int i) const{
         return arr[i];
     }
 
