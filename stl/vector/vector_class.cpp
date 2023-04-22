@@ -58,7 +58,7 @@ public:
         }
     }
 
-    bool isEmpty(){
+    bool isEmpty() const{
         return cs==0;
     }
 
@@ -67,7 +67,7 @@ public:
         return arr[0];
     }
 
-    int back(){
+    int back() const{
         return arr[cs-1];
     }
 
