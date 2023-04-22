@@ -21,6 +21,7 @@ void fast(){
 
 class Vector{
     // Data Members
+    int *arr;
     
 };
 
