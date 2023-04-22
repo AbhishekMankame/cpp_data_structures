@@ -70,6 +70,11 @@ public:
     int back(){
         return arr[cs-1];
     }
+
+    int at(int i){
+        return arr[i];
+    }
+
 };
 
 int main(){
