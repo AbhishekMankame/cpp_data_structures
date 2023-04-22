@@ -22,7 +22,7 @@ void solve(){
 
     for(int i=0;i<arr.size();i++){
         for(int j:arr[i]){
-            cout<<j<<endl;
+            cout<<j<<",";
         }
         cout<<endl;
     }
