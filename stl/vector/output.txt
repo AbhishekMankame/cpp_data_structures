@@ -1,1 +1,2 @@
 needle1 found at position 3
+needle2 not found
