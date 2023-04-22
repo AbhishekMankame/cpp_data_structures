@@ -12,13 +12,13 @@ public:
         arr=new T[ms];
     }
 
-    void push_back(const int d){
+    void push_back(const T d){
         // Two cases
         if(cs==ms){
             // create a new array and delete the old one, double the capacity
-            int *oldArr = arr;
+            T *oldArr = arr;
             ms = 2*ms;
-            arr = new int[ms];
+            arr = new T[ms];
             //copy the elements
             for(int i=0;i<cs;i++){
                 arr[i]=oldArr[i];
