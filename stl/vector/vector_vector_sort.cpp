@@ -11,6 +11,8 @@ bool compare(pair<string,vector<int>>s1, pair<string,vector<int>>s2){
 
     vector<int> m1 = s1.second;
     vector<int> m2 = s2.second;
+
+    return calcToMarks(m1)>calcToMarks(m2);
 }
 
 int main(){
