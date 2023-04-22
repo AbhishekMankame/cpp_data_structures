@@ -43,6 +43,9 @@ public:
             for(int i=0;i<cs;i++){
                 arr[i]=oldArr[i];
             }
+
+            //delete
+            delete oldArr;
         }
 
         arr[cs]=d;
