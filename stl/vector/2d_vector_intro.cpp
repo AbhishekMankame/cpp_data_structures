@@ -38,8 +38,3 @@ int main(){
     return 0;
 }
 
-/*
-Complexity:
-Constant(amortized time, reallocation may happen).
-If a reallocation happens, the reallocation is itself up to linear in the entire size.
-*/
