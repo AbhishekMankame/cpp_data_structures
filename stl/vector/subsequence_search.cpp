@@ -4,6 +4,10 @@
 #include<vector>
 using namespace std;
 
+bool mypredicate(int i, int j){
+    return (i==j);
+}
+
 int main(){
 
 #ifndef ONLINE_JUDGE
