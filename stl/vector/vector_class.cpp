@@ -32,7 +32,7 @@ public:
         arr=new int[ms];
     }
 
-    void push_back(int d){
+    void push_back(const int d){
         // Two cases
         if(cs==ms){
             // create a new array and delete the old one, double the capacity
