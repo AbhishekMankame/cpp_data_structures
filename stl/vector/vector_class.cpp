@@ -79,6 +79,10 @@ public:
         return cs;
     }
 
+    int capacity(){
+        return ms;
+    }
+
 };
 
 int main(){
