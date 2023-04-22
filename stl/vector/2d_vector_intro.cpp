@@ -17,6 +17,15 @@ void solve(){
         cout<<endl;
     }
     cout<<endl<<endl;
+
+    arr[0][0]+=10; //update
+
+    for(int i=0;i<arr.size();i++){
+        for(int j:arr[i]){
+            cout<<j<<endl;
+        }
+        cout<<endl;
+    }
     
     
 }
