@@ -14,7 +14,7 @@ int main(){
 
     vector<int> haystack;
     for(int i=1;i<10;i++){
-        
+        haystack.push_back(i*10);
     }
 
 
