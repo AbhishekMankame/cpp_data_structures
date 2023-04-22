@@ -37,6 +37,9 @@ public:
         if(cs==ms){
             // create a new array and delete the old one, double the capacity
         }
+
+        arr[cs]=d;
+        cs++;
     }
     
 };
