@@ -1,3 +1,4 @@
+template<typename T>
 class Vector{
     // Data Members
     int *arr;
