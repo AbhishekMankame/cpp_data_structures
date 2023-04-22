@@ -40,6 +40,9 @@ public:
             ms = 2*ms;
             arr = new int[ms];
             //copy the elements
+            for(int i=0;i<cs;i++){
+                
+            }
         }
 
         arr[cs]=d;
