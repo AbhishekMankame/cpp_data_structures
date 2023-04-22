@@ -23,5 +23,14 @@ int main(){
         cout<<"Even"<<endl;
     }
 
+    int x1;
+    cin>>x1;
+    if(x1&1){
+        cout<<"Odd"<<endl;
+    }
+    else{
+        cout<<"Even"<<endl;
+    }
+
     return 0;
 }
