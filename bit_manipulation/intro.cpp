@@ -8,5 +8,8 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
+    int a=0;
+    cout<<~a<<endl;
+
     return 0;
 }
