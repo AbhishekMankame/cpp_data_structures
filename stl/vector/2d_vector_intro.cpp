@@ -16,6 +16,7 @@ void solve(){
         }
         cout<<endl;
     }
+    cout<<endl<<endl;
     
     
 }
