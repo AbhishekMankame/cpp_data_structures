@@ -111,5 +111,10 @@ int main(){
 
     cout<<v.at(3)<<endl;
 
+    // printing all the elements
+    for(int i=0;i<v.size();i++){
+        cout<<v.at(i)<<",";
+    }
+
     return 0;
 }
