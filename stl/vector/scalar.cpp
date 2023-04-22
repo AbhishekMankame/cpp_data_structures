@@ -15,7 +15,7 @@ int main(){
     int key=11;
     vector<int>::iterator it = find(arr.begin(),arr.end(),key);
     if(it!=arr.end()){
-        cout<<"Present at index "<<it-arr.begin();
+        cout<<"Present at index "<<it-arr.begin()<<endl;
     }
 
 }
