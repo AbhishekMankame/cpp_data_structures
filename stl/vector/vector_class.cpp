@@ -79,7 +79,7 @@ public:
         return cs;
     }
 
-    int capacity(){
+    int capacity() const{
         return ms;
     }
 
