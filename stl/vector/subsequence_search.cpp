@@ -17,6 +17,11 @@ int main(){
         haystack.push_back(i*10);
     }
 
+    int niddle1[] = {40,50,60,70};
+    vector<int>::iterator it;
+    it = search(haystack.begin(),haystack.end(),niddle1,niddle1+4);
+
+
 
     return 0;
 }
