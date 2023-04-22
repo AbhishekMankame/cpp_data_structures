@@ -31,6 +31,10 @@ public:
         ms=1;
         arr=new int[ms];
     }
+
+    void push_back(int d){
+        
+    }
     
 };
 
