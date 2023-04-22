@@ -106,5 +106,8 @@ int main(){
     cout<<v.size()<<endl;
     cout<<v.capacity()<<endl;
 
+    cout<<v.front()<<endl;
+    cout<<v.back()<<endl;
+
     return 0;
 }
