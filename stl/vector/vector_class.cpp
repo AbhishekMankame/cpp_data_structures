@@ -35,7 +35,7 @@ public:
     void push_back(int d){
         // Two cases
         if(cs==ms){
-            
+            // create a new array and delete the old one, double the capacity
         }
     }
     
