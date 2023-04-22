@@ -9,14 +9,7 @@ void fast(){
 }
 
 void solve(){
-    vector<int> arr(100);
-    for(int i=0;i<100;i++){
-        cin>>arr[i];
-    }
-    for(auto i:arr){
-        cout<<i<<" ";
-    }
-
+    vector<vector<int>>arr={{1,2,3},{4,5,6},{7,8,9,10},{11,12}};
     
     
 }
