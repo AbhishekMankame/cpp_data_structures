@@ -14,6 +14,14 @@ int main(){
 
 
     //check odd or even
+    int x;
+    cin>>x;
+    if(x&1){
+        cout<<"Odd"<<endl;
+    }
+    else{
+        cout<<"Even"<<endl;
+    }
 
     return 0;
 }
