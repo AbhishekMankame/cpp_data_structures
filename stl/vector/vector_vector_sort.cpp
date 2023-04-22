@@ -3,6 +3,12 @@
 #include<vector>
 using namespace std;
 
+bool compare(pair<string,vector<int>>s1, pair<string,vector<int>>s2){
+
+    vector<int> m1 = s1.second;
+    vector<int> m2 = s2.second;
+}
+
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
