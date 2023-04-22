@@ -36,6 +36,10 @@ public:
         // Two cases
         if(cs==ms){
             // create a new array and delete the old one, double the capacity
+            int *oldArr = arr;
+            ms = 2*ms;
+            arr = new int[ms];
+            //copy the elements
         }
 
         arr[cs]=d;
