@@ -51,6 +51,10 @@ public:
         arr[cs]=d;
         cs++;
     }
+
+    void pop_back(){
+        
+    }
     
 };
 
