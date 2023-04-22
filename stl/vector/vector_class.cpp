@@ -63,7 +63,9 @@ public:
     }
 
     // Front, Back, At(i), operator overloading []
-    
+    int front(){
+        return arr[0];
+    }
 };
 
 int main(){
