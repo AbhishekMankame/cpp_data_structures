@@ -53,7 +53,9 @@ public:
     }
 
     void pop_back(){
-        
+        if(cs>=0){
+            cs--;
+        }
     }
     
 };
