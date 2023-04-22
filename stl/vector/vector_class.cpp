@@ -83,7 +83,7 @@ public:
         return ms;
     }
 
-    int operator[](int i){
+    int operator[](const int i){
         return arr[i];
     }
 
