@@ -10,4 +10,8 @@ int main(){
     freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
 #endif
+
+    vector<int> arr ={10,11,2,3,4,6,7,8};
+    int key=11;
+    
 }
