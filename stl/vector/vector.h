@@ -9,7 +9,7 @@ public:
     Vector(int max_size=1){
         cs=0;
         ms=max_size;
-        arr=new int[ms];
+        arr=new T[ms];
     }
 
     void push_back(const int d){
