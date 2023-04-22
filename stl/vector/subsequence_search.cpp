@@ -36,6 +36,10 @@ int main(){
     int needle2[]={20,30,50};
     it = std::search(haystack.begin(),haystack.end(),needle2,needle2+3,mypredicate);
 
+    if(it!=haystack.end()){
+        std::cout<<"needle2 found at position "<<(it-haystack.begin())<<endl;
+    }
+
 
 
 
