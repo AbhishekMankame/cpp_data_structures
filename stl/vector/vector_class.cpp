@@ -23,6 +23,7 @@ class Vector{
     // Data Members
     int *arr;
     int cs;
+    int ms;
     
 };
 
