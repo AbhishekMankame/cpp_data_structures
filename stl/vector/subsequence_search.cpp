@@ -12,6 +12,11 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
+    vector<int> haystack;
+    for(int i=1;i<10;i++){
+        
+    }
+
 
     return 0;
 }
