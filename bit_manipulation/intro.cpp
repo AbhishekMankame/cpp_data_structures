@@ -12,5 +12,8 @@ int main(){
     cout<<~a<<endl;
     cout<<~~a<<endl;
 
+
+    //check odd or even
+
     return 0;
 }
