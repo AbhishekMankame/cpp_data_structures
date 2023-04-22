@@ -71,11 +71,11 @@ public:
         return arr[cs-1];
     }
 
-    int at(int i){
+    int at(int i) const{
         return arr[i];
     }
 
-    int size(){
+    int size() const{
         return cs;
     }
 
