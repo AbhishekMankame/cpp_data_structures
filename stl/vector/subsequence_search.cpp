@@ -20,6 +20,13 @@ int main(){
     int niddle1[] = {40,50,60,70};
     vector<int>::iterator it;
     it = search(haystack.begin(),haystack.end(),niddle1,niddle1+4);
+    if(it!=haystack.end()){
+        cout<<"needle1 found at position "<<it-haystack.begin()<<endl;
+    }
+    else{
+        cout<<"needle1 not found"<<endl;
+    }
+
 
 
 
