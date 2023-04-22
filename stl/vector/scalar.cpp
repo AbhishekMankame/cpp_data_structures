@@ -17,5 +17,8 @@ int main(){
     if(it!=arr.end()){
         cout<<"Present at index "<<it-arr.begin()<<endl;
     }
+    else{
+        cout<<"Element not found"<<endl;
+    }
 
 }
