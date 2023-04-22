@@ -39,6 +39,9 @@ int main(){
     if(it!=haystack.end()){
         std::cout<<"needle2 found at position "<<(it-haystack.begin())<<endl;
     }
+    else{
+        cout<<"needle2 not found"<<endl;
+    }
 
 
 
