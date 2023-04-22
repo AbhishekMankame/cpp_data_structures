@@ -32,6 +32,11 @@ int main(){
     }
 
 
+    //using predicate comparison
+    int needle2[]={20,30,50};
+    it = std::search(haystack.begin(),haystack.end(),needle2,needle2+3,mypredicate);
+
+
 
 
     return 0;
