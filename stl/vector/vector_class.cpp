@@ -53,9 +53,11 @@ public:
     }
 
     void pop_back(){
-        if(cs>=0){
-            cs--;
-        }
+        cs--;
+    }
+
+    bool isEmpty(){
+        return cs==0;
     }
     
 };
