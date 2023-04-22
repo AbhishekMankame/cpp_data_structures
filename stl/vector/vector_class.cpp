@@ -33,7 +33,10 @@ public:
     }
 
     void push_back(int d){
-        
+        // Two cases
+        if(cs==ms){
+            
+        }
     }
     
 };
