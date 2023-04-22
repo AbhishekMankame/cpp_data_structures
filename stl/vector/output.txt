@@ -1,4 +1,4 @@
-Prateek
-Rijul
-Rohan
-Vivek
+Rijul 43
+Rohan 41
+Prateek 34
+Vivek 15
