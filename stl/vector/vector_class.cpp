@@ -83,6 +83,10 @@ public:
         return ms;
     }
 
+    int operator[](int i){
+        return arr[i];
+    }
+
 };
 
 int main(){
