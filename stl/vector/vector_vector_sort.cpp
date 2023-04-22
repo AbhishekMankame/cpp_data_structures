@@ -30,7 +30,7 @@ int main(){
     };
     sort(student_marks.begin(),student_marks.end(),compare);
     for(auto s:student_marks){
-        cout<<s.first<<endl;
+        cout<<s.first<<" "<<calcToMarks(s.second)<<endl;
     }
 
     return 0;
