@@ -75,6 +75,10 @@ public:
         return arr[i];
     }
 
+    int size(){
+        return cs;
+    }
+
 };
 
 int main(){
