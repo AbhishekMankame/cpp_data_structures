@@ -66,6 +66,10 @@ public:
     int front(){
         return arr[0];
     }
+
+    int back(){
+        return arr[cs-1];
+    }
 };
 
 int main(){
