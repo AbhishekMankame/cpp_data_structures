@@ -101,5 +101,8 @@ int main(){
     v.push_back(4);
     v.push_back(5);
 
+    cout<<v.size()<<endl;
+    cout<<v.capacity()<<endl;
+
     return 0;
 }
