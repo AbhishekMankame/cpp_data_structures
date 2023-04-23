@@ -12,6 +12,12 @@ int main(){
 
     int n;
     cin>>n;
+    for(int i=1;i<=n;i++){
+        hsh[i]++;
+    }
+    for(int i=1;i<=n;i++){
+        cout<<hsh[i]<<endl;
+    }
 
 
     return 0;
