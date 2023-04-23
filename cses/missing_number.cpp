@@ -11,6 +11,14 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
+    ll n,s=0;
+    cin>>s;
+    for(int i=1;i<=n;i++){
+        int a;
+        cin>>a;
+        s+=a;
+    }
+    cout<<n*(n+1)/2-5<<endl;
 
 
     return 0;
