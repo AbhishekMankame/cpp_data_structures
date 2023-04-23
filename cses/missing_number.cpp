@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long int
 const int N=1e5+10;
 int hsh[N];
 
@@ -10,14 +11,6 @@ int main(){
     freopen("error.txt","w",stderr);
 #endif
 
-    int n;
-    cin>>n;
-    for(int i=1;i<=n;i++){
-        hsh[i]++;
-    }
-    for(int i=1;i<=n;i++){
-        cout<<hsh[i]<<endl;
-    }
 
 
     return 0;
