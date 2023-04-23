@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
-const int N=1e5+10;
-int hsh[N];
 
 int main(){
 #ifndef ONLINE_JUDGE
