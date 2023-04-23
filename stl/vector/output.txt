@@ -1,4 +1,2 @@
-Rijul 43
-Rohan 41
-Prateek 34
-Vivek 15
+needle1 found at position 3
+needle2 not found
