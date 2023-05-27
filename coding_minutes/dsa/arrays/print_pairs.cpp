@@ -34,6 +34,12 @@ int main(){
     fast();
     int arr[]={10,20,30,40,50,60};
     int n=sizeof(arr)/sizeof(int);
+
+    //print all the elements of array
+    for(int i:arr){
+        cout<<i<<" ";
+    }
+    cout<<endl;
     
 
     return 0;
