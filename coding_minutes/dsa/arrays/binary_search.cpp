@@ -20,7 +20,7 @@ void fast(){
 }
 
 int binary_search(int arr[],int n, int key){
-    
+
 }
 
 int main(){
@@ -36,6 +36,12 @@ int main(){
     int key;
     cin>>key;
     int index = binary_search(arr,n,key);
+    if(index!=-1){
+        cout<<key<<" is present at index "<<index<<endl;
+    }
+    else{
+        cout<<key<<" is not found!"<<endl;
+    }
 
     return 0;
 }
