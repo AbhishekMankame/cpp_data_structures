@@ -14,6 +14,8 @@ ll lcm(ll a, ll b){
 }
 
 void printAllPairs(int arr[], int n){
+
+    // Used two nested loops
     for(int i=0;i<n;i++){
         int x = arr[i];
         for(int j=i+1;j<n;j++){
