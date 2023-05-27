@@ -46,6 +46,8 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+
+    printAllPairs(arr,n);
     
 
     return 0;
