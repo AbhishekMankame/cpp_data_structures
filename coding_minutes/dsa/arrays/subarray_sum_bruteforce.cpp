@@ -19,6 +19,8 @@ void fast(){
     cout.tie(0);
 }
 
+// Brute force approach
+
 int largestsubarraySum1(int arr[], int n){
     int largest_sum=0;
     for(int i=0;i<n;i++){
