@@ -19,6 +19,19 @@ void fast(){
     cout.tie(0);
 }
 
+int subarraySum(int arr[], int n){
+    int largest_sum=0;
+    for(int i=0;i<n;i++){
+        for(int j=i;j<n;j++){
+            int subarraySum=0;
+            for(int k=i;k<=j;k++){
+                subarraySum+=arr[k];
+            }
+            
+        }
+    }
+}
+
 
 int main(){
 #ifndef ONLINE_JUDGE
