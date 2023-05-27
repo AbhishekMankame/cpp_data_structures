@@ -20,6 +20,7 @@ void printAllPairs(int arr[], int n){
             int y=arr[j];
             cout<<x<<","<<y<<endl;
         }
+        cout<<endl;
     }
 
 }
