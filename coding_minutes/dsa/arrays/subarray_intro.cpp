@@ -19,7 +19,9 @@ void fast(){
     cout.tie(0);
 }
 
-
+void printSubarray(int arr[], int n){
+    
+}
 
 int main(){
 #ifndef ONLINE_JUDGE
