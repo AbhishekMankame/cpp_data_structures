@@ -19,6 +19,7 @@ void fast(){
     cout.tie(0);
 }
 
+// Largest subarray sum using prefix sum method
 
 int main(){
 #ifndef ONLINE_JUDGE
