@@ -28,7 +28,6 @@ void printSubarray(int arr[], int n){
             }
             cout<<endl;
         }
-        cout<<endl;
     }
 
 }
