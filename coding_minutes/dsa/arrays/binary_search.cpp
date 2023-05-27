@@ -30,6 +30,9 @@ int binary_search(int arr[],int n, int key){
         else if(arr[mid]>key){
             e = mid - 1;
         }
+        else{
+            s = mid + 1;
+        }
 
     }
     return -1;
