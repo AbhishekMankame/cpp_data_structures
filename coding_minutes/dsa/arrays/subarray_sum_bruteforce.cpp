@@ -29,9 +29,12 @@ int subarraySum(int arr[], int n){
             }
 
             //put a check is subarraySum > largest_sum
+            largest_sum = max(largest_sum,subarraySum);
             
         }
     }
+
+    return largest_sum;
 }
 
 
