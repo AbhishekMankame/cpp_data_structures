@@ -37,8 +37,10 @@ int main(){
 #endif
 
     fast();
+    int arr[]={10,20,30,40,50,60};
+    int n=sizeof(arr)/sizeof(int);
 
-    
+
 
     return 0;
 }
