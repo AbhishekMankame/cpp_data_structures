@@ -20,6 +20,14 @@ void fast(){
 }
 
 int binary_search(int arr[],int n, int key){
+    int s=0;
+    int e=n-1;
+    while(s<=e){
+
+
+    }
+    return -1;
+    
 
 }
 
