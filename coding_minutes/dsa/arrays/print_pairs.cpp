@@ -13,6 +13,11 @@ ll lcm(ll a, ll b){
     return (a*b)/gcd(a,b);
 }
 
+void printAllPairs(int arr[], int n){
+
+
+}
+
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
@@ -27,6 +32,8 @@ int main(){
 #endif
 
     fast();
+    int arr[]={10,20,30,40,50,60};
+    int n=sizeof(arr)/sizeof(int);
     
 
     return 0;
