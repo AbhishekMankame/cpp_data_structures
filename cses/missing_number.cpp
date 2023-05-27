@@ -17,6 +17,5 @@ int main(){
         s+=a;
     }
     cout<<n*(n+1)/2-s<<endl;
-
     return 0;
 }
