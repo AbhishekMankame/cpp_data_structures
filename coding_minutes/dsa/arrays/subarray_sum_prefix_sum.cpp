@@ -21,7 +21,10 @@ void fast(){
 
 // Largest subarray sum using prefix sum method
 
+int largestSubarraySum2(int arr[], int n){
 
+    
+}
 
 int main(){
 #ifndef ONLINE_JUDGE
