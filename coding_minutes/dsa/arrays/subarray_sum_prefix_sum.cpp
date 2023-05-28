@@ -21,6 +21,8 @@ void fast(){
 
 // Largest subarray sum using prefix sum method
 
+
+
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
