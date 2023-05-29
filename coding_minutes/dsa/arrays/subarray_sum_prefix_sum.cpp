@@ -33,6 +33,7 @@ int main(){
 #endif
 
     fast();
+    int arr[]={};
 
     return 0;
 }
