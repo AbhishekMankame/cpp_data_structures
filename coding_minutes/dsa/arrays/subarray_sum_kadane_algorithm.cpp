@@ -29,6 +29,5 @@ int main(){
 
     fast();
 
-
     return 0;
 }
