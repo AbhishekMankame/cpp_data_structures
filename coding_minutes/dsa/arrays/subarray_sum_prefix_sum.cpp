@@ -34,6 +34,7 @@ int main(){
 
     fast();
     int arr[]={};
+    
 
     return 0;
 }
