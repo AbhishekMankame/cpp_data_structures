@@ -1,3 +1,10 @@
+/*
+Given a number N. Print its factorial
+
+Constraints
+1 <= N <= 100
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
