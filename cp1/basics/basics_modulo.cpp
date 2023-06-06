@@ -43,6 +43,8 @@ int main(){
         fact = fact * i;
     }
 
+    cout<< fact << endl;
+
 
 
     return 0;
