@@ -36,5 +36,9 @@ int main(){
 
     fast();
 
+    ll fact = 1;
+
+
+
     return 0;
 }
